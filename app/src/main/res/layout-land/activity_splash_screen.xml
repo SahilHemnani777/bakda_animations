@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_splash_screen_scene"
+    tools:context=".SplashScreen">
+
+    <TextView
+        android:id="@+id/textViewM"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="76dp"
+        android:text="M"
+        android:textColor="#4885ed"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewO"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="O"
+        android:textColor="#db3236"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textViewM"
+        app:layout_constraintTop_toBottomOf="@+id/textViewM" />
+
+    <TextView
+        android:id="@+id/textViewT"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="T"
+        android:textColor="#f4c20d"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textViewO"
+        app:layout_constraintTop_toBottomOf="@+id/textViewO" />
+
+    <TextView
+        android:id="@+id/textViewI"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="I"
+        android:textColor="#4885ed"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textViewT"
+        app:layout_constraintTop_toBottomOf="@+id/textViewT" />
+
+    <TextView
+        android:id="@+id/textViewO2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="O"
+        android:textColor="#3cba54"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textViewI"
+        app:layout_constraintTop_toBottomOf="@+id/textViewI" />
+
+    <TextView
+        android:id="@+id/textViewN"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="N"
+        android:textColor="#db3236"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textViewO2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewO2" />
+
+    <TextView
+        android:id="@+id/textViewL"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="4dp"
+        android:text="L"
+        android:textColor="#4885ed"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewA"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="A"
+        android:textColor="#db3236"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textViewL"
+        app:layout_constraintTop_toBottomOf="@+id/textViewL" />
+
+    <TextView
+        android:id="@+id/textViewY"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="Y"
+        android:textColor="#f4c20d"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textViewA"
+        app:layout_constraintTop_toBottomOf="@+id/textViewA" />
+
+    <TextView
+        android:id="@+id/textViewO3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="O"
+        android:textColor="#4885ed"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textViewY"
+        app:layout_constraintTop_toBottomOf="@+id/textViewY" />
+
+    <TextView
+        android:id="@+id/textViewU"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="U"
+        android:textColor="#3cba54"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textViewO3"
+        app:layout_constraintTop_toBottomOf="@+id/textViewO3" />
+
+    <TextView
+        android:id="@+id/textViewT2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="T"
+        android:textColor="#db3236"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textViewU"
+        app:layout_constraintTop_toBottomOf="@+id/textViewU" />
+</androidx.constraintlayout.motion.widget.MotionLayout>
