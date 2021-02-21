@@ -1,4 +1,5 @@
-# bakda_animations
+# All the animaions
+
 
 ## Splash Screen
 <div align="center" id="top"> 
