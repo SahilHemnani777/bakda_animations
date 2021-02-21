@@ -4,9 +4,18 @@
 <div align="center" id="top"> 
   <img src="https://raw.githubusercontent.com/SahilHemnani777/bakda_animations/main/splash_screen.gif" alt="EShopee: Flutter eCommerce App" width="300" height="600"/>
   
+
+---  
 ## Main Screen Stagered animations
 <div align="center" id="top"> 
   <img src="https://raw.githubusercontent.com/SahilHemnani777/bakda_animations/main/main_screen.gif" alt="EShopee: Flutter eCommerce App" width="300" height="600"/>
+  
+  
+  
+---  
+## Advanced Key frames
+<div align="center" id="top"> 
+  <img src="https://raw.githubusercontent.com/SahilHemnani777/bakda_animations/main/advanced_keyframes.gif" alt="EShopee: Flutter eCommerce App" width="300" height="600"/>
   
   
   
